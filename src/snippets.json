@@ -1,20 +1,20 @@
 {
-  "eslint-disable": {
-    "prefix": "eslint-disable",
+  "tslint-disable": {
+    "prefix": "tslint-disable",
     "body": [
       "/* eslint-disable @typescript-eslint/${1|INSERT_RULES|} */",
       "$0/* eslint-enable ${1} */"
     ],
-    "description": "ESLint disable wrapper"
+    "description": "Typescript ESLint disable wrapper"
   },
-  "eslint-disable-line": {
-    "prefix": "eslint-disable-line",
+  "tslint-disable-line": {
+    "prefix": "tslint-disable-line",
     "body": ["// eslint-disable-line @typescript-eslint/${1|INSERT_RULES|}"],
-    "description": "ESLint disable line"
+    "description": "Typescript ESLint disable line"
   },
-  "eslint-disable-next-line": {
-    "prefix": "eslint-disable-next-line",
+  "tslint-disable-next-line": {
+    "prefix": "tslint-disable-next-line",
     "body": ["// eslint-disable-next-line @typescript-eslint/${1|INSERT_RULES|}"],
-    "description": "ESLint disable next line"
+    "description": "Typescript ESLint disable next line"
   }
 }
