@@ -1,19 +1,24 @@
-# eslint-disable-snippets
+# eslint-disable-typescript-snippets
 
-Includes snippets for ignoring; a block, the current line, or the next line.
+Snippets for ignoring @typescript-eslint rules for a block, the current line, or the next line.
 
 1. Start typing `eslint-disable` in a file to trigger the snippet autocomplete.
    Supported Languages:
       javascript/typescript
       javascriptreact / typescriptreact
       vue
-1. Type the rule you want to disable or leave empty to disable all rules.
+1. Type the @typescript-eslint rule you want to disable or leave empty to disable all rules.
 1. Press `tab` to drop your cursor at a helpful position.
 1. Press `ctrl+↓`(win) `option+↓`(mac) to move the current line down. This is useful if you are wrapping a block of
    code.
 
 ![Block disable in use](/images/disable-block_1.2.0.gif)
 
-## Contributing
+## Credit
 
-PRs are welcome, issues are not. This is open source software in the extent that you can read the source and install, not in the sense that I owe you anything.
+This extension is based on the original eslint-disable-snippets by drKnoxy.
+Please consider installing both extensions to get the full set of core ESLint
+and @typescript-eslint rule snippets.
+
+Original extension:
+https://marketplace.visualstudio.com/items?itemName=drKnoxy.eslint-disable-snippets
