@@ -19,7 +19,6 @@
   "scripts": {
     "build": "node ./build.js"
   },
-  "icon": "images/icon.png",
   "contributes": {
     "snippets": [
       {
