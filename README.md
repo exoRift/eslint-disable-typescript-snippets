@@ -11,6 +11,8 @@ https://marketplace.visualstudio.com/items?itemName=drKnoxy.eslint-disable-snipp
 
 Snippets for ignoring @typescript-eslint rules for a block, the current line, or the next line.
 
+## Usage
+
 1. Start typing `tslint-disable` in a file to trigger the snippet autocomplete.
    Supported Languages:
       javascript/typescript
